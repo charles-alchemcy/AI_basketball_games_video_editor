@@ -101,4 +101,3 @@ def do_detect(model, img, conf_thresh, nms_thresh, use_cuda=1):
     print('-----------------------------------')
 
     return utils.post_processing(img, conf_thresh, nms_thresh, output)
-
